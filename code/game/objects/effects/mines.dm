@@ -1,6 +1,6 @@
 /obj/effect/mine
 	name = "Mine"
-	desc = "I Better stay away from that thing."
+	desc = "Better stay away from that thing."
 	density = TRUE
 	anchored = TRUE
 	icon = 'icons/obj/weapons.dmi'
