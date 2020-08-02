@@ -6,7 +6,7 @@
 
 /obj/item/weapon/oddity
 	name = "Oddity"
-	desc = "Strange item of uncertain origin."
+	desc = "A strange item of uncertain origin."
 	icon = 'icons/obj/oddities.dmi'
 	icon_state = "gift3"
 	item_state = "electronic"
@@ -43,7 +43,7 @@
 //Common - you can find those everywhere
 /obj/item/weapon/oddity/common/blueprint
 	name = "strange blueprint"
-	desc = "There's no telling what this design is supposed to be. Whatever could be built from this likely wouldn't work."
+	desc = "There's no telling what this design is supposed to be, and whatever is built likely wouldn't work."
 	icon_state = "blueprint"
 	oddity_stats = list(
 		STAT_COG = 5,
@@ -52,7 +52,7 @@
 
 /obj/item/weapon/oddity/common/coin
 	name = "strange coin"
-	desc = "It appears to be more of a collectible than any sort of actual currency. What metal it's made from seems to be a mystery."
+	desc = "Made from an unknown metal. It appears to be more of a collectible than any sort of actual currency."
 	icon_state = "coin"
 	oddity_stats = list(
 		STAT_ROB = 5,
@@ -61,7 +61,7 @@
 
 /obj/item/weapon/oddity/common/photo_landscape
 	name = "alien landscape photo"
-	desc = "There is some ire about the planet in this photograph."
+	desc = "There is some debate about the existence of the planet in this photograph."
 	icon_state = "photo_landscape"
 	oddity_stats = list(
 		STAT_COG = 5,
@@ -70,7 +70,7 @@
 
 /obj/item/weapon/oddity/common/photo_coridor
 	name = "surreal maint photo"
-	desc = "The corridor in this photograph looks familiar, though something seems wrong about it; it's as if everything in it was replaced with an exact replica of itself."
+	desc = "The corridor in this photograph looks familiar, though something seems wrong about it; it's as if everything in it was taken away and replaced with an exact replica of itself."
 	icon_state = "photo_corridor"
 	oddity_stats = list(
 		STAT_MEC = 5,
@@ -89,7 +89,7 @@
 
 /obj/item/weapon/oddity/common/old_newspaper
 	name = "old newspaper"
-	desc = "It contains a report on some old and strange phenomenon. Maybe it's lies, maybe it's corporate experiments gone wrong."
+	desc = "It contains a report on some old and strange phenomena. Maybe they're lies, or it's corporate experiments gone wrong."
 	icon_state = "old_newspaper"
 	oddity_stats = list(
 		STAT_MEC = 4,
@@ -119,7 +119,7 @@
 
 /obj/item/weapon/oddity/common/book_eyes
 	name = "observer book"
-	desc = "This book details information on some cyber creatures. Who did this, how this is even possible?"
+	desc = "This book details information on some cyber creatures. Who made these, and how is this even possible?"
 	icon_state = "book_eyes"
 	oddity_stats = list(
 		STAT_ROB = 9,
@@ -157,7 +157,7 @@
 
 /obj/item/weapon/oddity/common/healthscanner
 	name = "odd health scanner"
-	desc = "It's broken and stuck on some really strange readings. Was this even human?"
+	desc = "It's broken and stuck on some really strange readings. Was this even a human?"
 	icon_state = "healthscanner"
 	item_state = "electronic"
 	oddity_stats = list(
@@ -167,7 +167,7 @@
 
 /obj/item/weapon/oddity/common/old_pda
 	name = "broken pda"
-	desc = "An old Nanotrasen era PDA. These were issued to their employees all throughout the galaxy."
+	desc = "An old Nanotrasen-era PDA. These were issued to their employees all throughout the galaxy."
 	icon_state = "old_pda"
 	item_state = "electronic"
 	oddity_stats = list(
@@ -214,7 +214,7 @@
 
 /obj/item/weapon/oddity/common/old_id
 	name = "old id"
-	desc = "There is a story behind this name. Untold, and cruel in fate."
+	desc = "There was a story behind this name. It remains untold, and cruel in fate."
 	icon_state = "old_id"
 	oddity_stats = list(
 		STAT_VIG = 9,
@@ -222,7 +222,7 @@
 
 /obj/item/weapon/oddity/common/old_radio
 	name = "old radio"
-	desc = "Close your eyes, bring it closer and listen. You can almost hear it, in the edge of your consciousness. The World is ticking."
+	desc = "Close your eyes, bring it closer and listen. You can almost hear it, at the edge of your consciousness. The World is ticking."
 	icon_state = "old_radio"
 	oddity_stats = list(
 		STAT_COG = 9,
@@ -241,7 +241,7 @@
 
 /obj/item/weapon/oddity/techno
 	name = "Unknown technological part"
-	desc = "Technological part maded by Techno-Tribalism Enforcer."
+	desc = "A strange part made by a Techno-Tribalism Enforcer."
 	icon_state = "techno_part1"
 
 /obj/item/weapon/oddity/techno/Initialize()
