@@ -16,7 +16,7 @@ effective or pretty fucking useless.
 
 /obj/item/device/batterer
 	name = "mind batterer"
-	desc = "A strange device with twin antennas."
+	desc = "A strange device with twin antennae."
 	icon_state = "batterer"
 	throwforce = WEAPON_FORCE_HARMLESS
 	w_class = ITEM_SIZE_TINY
