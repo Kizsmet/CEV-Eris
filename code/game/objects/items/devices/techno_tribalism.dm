@@ -117,8 +117,8 @@
 		else
 			visible_message("\The [src] beeps, \"The [src] is not full enough to produce.\".")
 	else
-		visible_message("\The [src] beeps, \"The [src] need time to cooldown.\".")
+		visible_message("\The [src] beeps, \"The [src] needs time to cooldown.\".")
 
 /obj/item/device/techno_tribalism/examine(user)
 	..()
-	to_chat(user, SPAN_NOTICE("The [src] is feeded by [items_count]/[max_count]."))
+	to_chat(user, SPAN_NOTICE("The [src] is fed by [items_count]/[max_count]."))
