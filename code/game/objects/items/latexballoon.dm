@@ -1,6 +1,6 @@
 /obj/item/latexballon
 	name = "latex glove"
-	desc = "A latex glove, now filled with air as an oddly-shaped balloon."
+	desc = "A latex glove, now filled with air to become an oddly-shaped balloon."
 	icon_state = "latexballon"
 	item_state = "lgloves"
 	force = 0
